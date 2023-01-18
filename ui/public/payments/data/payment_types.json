@@ -1,0 +1,4 @@
+[{"name": "credit_card", "counts": 76795},
+ {"name": "boleto", "counts": 19784},
+ {"name": "voucher", "counts": 5775},
+ {"name": "debit_card", "counts": 1529}]

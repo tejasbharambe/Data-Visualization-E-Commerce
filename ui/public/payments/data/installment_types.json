@@ -1,0 +1,11 @@
+[{"Payment_Installment_types": 1, "counts": 52546},
+ {"Payment_Installment_types": 2, "counts": 12413},
+ {"Payment_Installment_types": 3, "counts": 10461},
+ {"Payment_Installment_types": 4, "counts": 7098},
+ {"Payment_Installment_types": 10, "counts": 5328},
+ {"Payment_Installment_types": 5, "counts": 5239},
+ {"Payment_Installment_types": 8, "counts": 4268},
+ {"Payment_Installment_types": 6, "counts": 3920},
+ {"Payment_Installment_types": 7, "counts": 1626},
+ {"Payment_Installment_types": 9, "counts": 644},
+ {"Payment_Installment_types": 12, "counts": 133}]
