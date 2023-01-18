@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Final Project Map</title>
+        <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2.7.13/dist/vue.js"></script> -->
+        <link rel="stylesheet" href="./map.css"/>
+
+        <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <!-- <link rel="stylesheet" href="../style.css"> -->
+
+        <!-- <link href="../node_modules/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet"> -->
+        
+        <script src="../node_modules/d3/dist/d3.min.js"></script>
+        <script src="../node_modules/topojson-client/dist/topojson-client.js"></script>
+
+        <!-- LEAFLET -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
+        integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14="
+        crossorigin=""/>
+
+        <!-- Make sure you put this AFTER Leaflet's CSS -->
+        <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
+        integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg="
+        crossorigin=""></script>
+
+        <!-- Leaflet True Size -->
+        <script src="https://cdn.jsdelivr.net/npm/leaflet-truesize"></script>
+    </head>
+    
+    <body>
+        <h2>Clickable and Draggable Maps</h2>
+        <div class="row">
+            <div class="col-5">
+                <div class="row justify-content-center">
+                    <svg id="svgDiv" width="500" height="500"></svg>
+                </div>
+            </div>
+
+            <div class="col-2">
+                <div class="alert alert-warning mt-4 row info" id="stateOne"></div>
+                <div class="alert alert-info row info" id="stateTwo"></div>
+                <div class="row" id="resetRow">
+                    <button id="resetSVG" class="col reset" >Reset SVG</button>
+                    <button id="resetSlippy" class="col reset">Reset Slippy</button>
+                </div>
+            </div>
+
+            <div class="col-5">
+                <div class="m-auto" id="slippyDiv"></div>
+            </div>
+        </div>
+
+        <script src="map.js"></script>
+    </body>
+</html> 

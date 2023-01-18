@@ -1,0 +1,48 @@
+h2 {
+    text-align: center;
+}
+
+#svgDiv { 
+    width: 500px;
+    height: 500px;
+}
+
+#slippyDiv { 
+    width: 500px;
+    height: 500px;
+}
+
+.reset {
+    border-radius: 3px;
+    background-color: #ff000075;
+    padding: 5px;
+    margin: 2px;
+    cursor: default;
+    font-size: 0.85em;
+    font-weight: bold;
+    user-select: none;
+}
+
+.selected1 {
+    fill: #ffc10750;
+}
+.selected2 {
+    fill: #17a2b850;
+}
+
+.states {
+    fill: whitesmoke;
+    stroke: #666;
+    stroke-width: 0.5px;
+}
+
+.states2 {
+    fill: #ffffff00;
+    stroke: #666;
+    stroke-width: 0.5px;
+}
+
+.info{
+    padding: 5px;
+    margin: 2px;
+}
